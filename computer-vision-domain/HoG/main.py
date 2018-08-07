@@ -9,7 +9,7 @@ import numpy as np
 from skimage.feature import hog
 from skimage import data, exposure, color, io
 
-# filename = '../../images/bay.jpg'
+filename = '../../images/bay.jpg'
 image = color.rgb2gray(data.astronaut())
 # image = data.astronaut()
 # image = color.rgb2gray(io.imread(filename))
